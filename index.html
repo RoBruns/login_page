@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Pagina de Login</title>
+
+</head>
+
+<body>
+    <div class="logo-box">
+    <img src="assets/img/logo cor.png" class="logo-img">
+    <h1 class="logo-text">LOGO</h1>
+    </div>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form id="signUpForm">
+                <h1>Criar Conta</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>Registre-se com seu Email</span>
+                <input type="text" placeholder="Nome"   required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Senha" required>
+                <button type="submit">Resgistrar</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form id="signInForm">
+                <h1>Entrar</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>Entre com Email e senha</span>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Senha" required>
+                <a href="#" class="forget">Esqueci minha senha</a>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <img src="assets/img/logowhite.png" class="logo-in">
+                    <h1>Bem vindo de volta!</h1>
+                    <p>Ja possuo conta</p>
+                    <button class="hidden" id="login">Entrar</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <img src="assets/img/logowhite.png" class="logo-in">
+                    <h1>Ola, Amigo!</h1>
+                    <p>Registre-se para ter acesso ao site</p>
+                    <button class="hidden" id="register">Registre-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
