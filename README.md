@@ -19,7 +19,6 @@ Este repositório contém o código para uma página de login/registro elegante 
 - HTML5
 - CSS3
 - JavaScript Vanilla
-- Font Awesome para ícones
  
 ## Referência
  
